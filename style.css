@@ -23,13 +23,15 @@
     height: 2rem;
     position: fixed;
     z-index: 100;
-    right: 2rem;
-    top: 2rem;
+    right: -1rem;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
 }
+
+
 
 .line{
     width: 100%;
@@ -128,6 +130,10 @@ header{
     background-color: white;
     position: fixed;
     top: 0;
+    right: 0;
+}
+
+.sidebar.show-menu{
     right: 0;
 }
 
